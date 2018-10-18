@@ -1,0 +1,476 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?jxiqyw');
+    src:  url('../fonts/icomoon.eot?jxiqyw#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?jxiqyw') format('truetype'),
+    url('../fonts/icomoon.woff?jxiqyw') format('woff'),
+    url('../fonts/icomoon.svg?jxiqyw#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+h5,p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+/*.clearfix:before,.clearfix:after {*/
+/*content: "";*/
+/*display: table;*/
+/*}*/
+/*.clearfix:after {*/
+/*clear: both;*/
+/*}*/
+/*.clearfix {*/
+/**zoom:1;*/
+/*}*/
+input, button {
+    border: none;
+}
+body{
+    background-color: #f6f6f6;
+    font-size: 12px;
+}
+/*版心*/
+.w {
+    width: 1190px;
+    margin: auto;
+}
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+
+.style-red {
+    color: #f10215!important;
+}
+/*顶部*/
+.J_event {
+    background-color: #562521;
+}
+.J_event a {
+    display: block;
+    height: 80px;
+    background: url(../images/top.jpg) no-repeat;
+    position: relative;
+}
+.J_event a i {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    background: rgba(0,0,0,0.4);
+    color: rgba(255,209,234,0.37);
+    text-align: center;
+    font-family: "icomoon";
+    font-style: normal;
+}
+.shortcut {
+    height: 30px;
+    line-height: 30px;
+    background-color: #e3e4e5;
+    border-bottom: 1px solid #ddd;
+    color: #999;
+    font-size: 12px;
+
+}
+.shortcut a {
+    color: #999;
+    text-decoration: none;
+}
+.shortcut a:hover {
+    color: #c81623;
+}
+.shortcut .fr a {
+    font-size: 12px;
+}
+.shortcut .fr li {
+    float: left;
+
+}
+.shortcut .fr {
+    margin-right: 15px;
+}
+.shortcut .fl {
+    margin-left: 200px;
+
+}
+.shortcut .fl span {
+    font-size: 12px;
+}
+.iconfont{
+    font-family: "icomoon";
+    font-style: normal;
+    color: #f10215;
+    font-size: 12px;
+}
+.spacer {
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 12px 12px 0;
+}
+.dropdown {
+    padding-right: 15px;
+    position: relative;
+}
+.dropdown i {
+    font-family: icomoon;
+    font-style: normal;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    position: absolute;
+    right: 0;
+    top: 6px;
+}
+.mobile_static {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin: 4px auto;
+    background: #f6f6f6;
+    border: 1px solid #cfcfcf;
+    left: -2px;
+    top: 28px;
+    padding: 2px;
+}
+.mobile_txt {
+    width: 60px;
+    text-align: center;
+}
+/*header*/
+.header {
+    height: 140px;
+}
+.inner {
+    height: 140px;
+    position: relative;
+}
+.logo{
+    width: 190px;
+    height: 171px;
+    position: absolute;
+    top: -31px;
+    left: 0;
+    box-shadow: 0 -12px 10px rgba(0,0,0,.2)
+}
+.logo h1 {
+    margin: 0;
+}
+.logo a {
+    display: block;
+    width: 190px;
+    height: 171px;
+    background: url("../images/logo.jpg") no-repeat;
+    text-indent: -999em;
+    overflow: hidden;
+}
+.search {
+    position: absolute;
+    left: 320px;
+    top: 25px;
+    width: 550px;
+    height: 35px;
+    background-color: darkgreen;
+}
+.search input {
+    padding: 4px 44px 4px 4px;
+    width: 450px;
+    height: 25px;
+    border: 1px solid transparent;
+    line-height: 25px;
+    font-size: 14px;
+    outline: none;
+    color: #989898;
+    float: left;
+}
+.search button {
+    width: 50px;
+    height: 35px;
+    background-color: #f10215;
+    float: left;
+    cursor: pointer;
+    outline: none;
+}
+.search i {
+    font-family: icomoon;
+    color: #fff;
+    font-style: normal;
+    font-size: 20px;
+}
+.search em {
+    position: absolute;
+    top: 10px;
+    right: 65px;
+    width: 19px;
+    height: 15px;
+    cursor: pointer;
+    background: url("../images/sprite-search.png") no-repeat ;
+}
+.search em:hover {
+    background-position: -30px 0;
+
+}
+.hotwords {
+    position: absolute;
+    top: 70px;
+    left: 320px;
+}
+.hotwords a {
+    color: #9E9899;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.hotwords a:hover {
+    color: #f10215;
+}
+.cw-icon {
+    width: 188px;
+    height: 33px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 33px;
+    border: 1px solid #e3e4e5;
+    position: absolute;
+    top: 25px;
+    right: 99px;
+    font-size: 12px;
+}
+.cw-icon a {
+    color: #f10215;
+}
+.cw-icon i {
+    font-family: icomoon;
+    font-style: normal;
+    color: #f10215;
+    margin-right: 3px;
+}
+.cw-icon em {
+    position: absolute;
+    right: 35px;
+    top: 5px;
+    color: #fff;
+    background-color: #f10215;
+    font-style: normal;
+    border-radius:7px;
+    padding:1px;
+    font-size: 12px;
+    line-height: 12px;
+    min-width: 12px;
+}
+.treasure {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    width: 190px;
+    height: 40px;
+}
+.treasure a {
+    background: url("../images/discount.jpg");
+    width: 190px;
+    height: 40px;
+    display: block;
+}
+.navitemsdiv {
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+}
+.navitemsdiv ul {
+    float: left;
+}
+.navitemsdiv ul li {
+    float: left;
+    margin-left: 30px;
+}
+.navitemsdiv li a {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    line-height: 40px;
+    height: 40px;
+}
+.navitemsdiv li a:hover {
+    color: #f10215;
+}
+.navitemsdiv .spacer {
+    float: left;
+    margin-left: 20px;
+    margin-right: -10px;
+    margin-top: 15px;
+}
+/*footer*/
+.J_footer {
+    height: 568px;
+    background-color: #EAEAEA;
+}
+.mod_service {
+    border-bottom: 1px solid #DEDEDE;
+}
+.service_inner {
+    padding: 30px 0;
+}
+.service_inner ul {
+    overflow: hidden;
+}
+.service_inner li {
+
+    float: left;
+    width: 297px;
+    height: 42px;
+}
+.mod_service_unit {
+    padding-left: 45px;
+    width: 180px;
+    height: 42px;
+    margin: 0 auto ;
+    position: relative;
+}
+.mod_service_unit h5 {
+    width: 36px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/ico.png") no-repeat;
+    text-indent: -9999px;
+}
+.mod_service_unit p {
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444;
+}
+.mod_service_unit .mod_service_kuai {
+    background-position: 0 -44px;
+}
+.mod_service_unit .mod_service_hao {
+    background-position: 0 -86px;
+}
+.mod_service_unit .mod_service_sheng {
+    background-position: 0 -128px;
+}
+.mod_help {
+    height: 160px;
+    padding: 20px 0;
+    line-height: 22px;
+}
+.mod_help dl {
+    float: left;
+    width: 198px;
+}
+.mod_help dt {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    display: block;
+}
+.mod_help a {
+    color: #666;
+}
+.mod_help a:hover {
+    color: #f10215;
+}
+.mod_help .mod_help_cover {
+    width: 200px;
+    height: 150px;
+    background: url("../images/ico_footer.png") no-repeat;
+}
+.mod_help_cover dt {
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.mod_help_cover dd {
+    font-size: 12px;
+    color: #666;
+    padding: 0 10px;
+    line-height: 18px;
+}
+.mod_help_cover_more {
+    text-align: right;
+}
+.mod_help_cover_more a:hover {
+    color: #f10215;
+    cursor: pointer;
+}
+.mod_copyright {
+    border-top: 1px solid #e1e1e1;
+    padding: 15px 0;
+    text-align: center;
+}
+.mod_copyright_links a{
+    color: #666;
+    font-size: 12px;
+}
+.mod_copyright_links a:hover{
+    color: #f10215;
+}
+.mod_copyright_split {
+    margin: 0 10px;
+    color: #ccc!important;
+}
+.mod_copyright_info {
+    line-height: 22px;
+    padding: 10px 0;
+}
+.mod_copyright_info a {
+    color: #999;
+}
+.mod_copyright_info a:hover {
+    color: #f10215;
+}
+.mod_copyright_info span {
+    line-height: 22px;
+    color: #999;
+}
+.mod_copyright_auth {
+    margin: 25px 0;
+}
+.mod_copyright_auth_ico {
+    width: 103px;
+    height: 32px;
+    display: inline-block;
+    margin: 0 3px;
+    background: url("../images/ico_footer.png") 0 -155px no-repeat;
+}
+.mod_copyright_auth_ico_1{
+    background: url("../images/ico_footer.png") 0 -151px;
+}
+.mod_copyright_auth_ico_2{
+    background: url("../images/ico_footer.png") -104px -151px;
+}
+.mod_copyright_auth_ico_3{
+    background: url("../images/ico_footer.png") 0 -184px;
+}
+.mod_copyright_auth_ico_4{
+    background: url("../images/ico_footer.png") -104px -184px;
+}
+.mod_copyright_auth_ico_5{
+    background: url("../images/ico_footer.png") 0 -217px;
+}
+.mod_copyright_auth_ico_6{
+    background: url("../images/ico_footer.png") -104px -217px;
+}
+
+
+
+
+
