@@ -6,7 +6,6 @@ $(function () {
         if(count === $(".fs_col2 li").length){
             count = 0
         }
-        console.log(count)
         $(".fs_col2 li").eq(count).fadeIn().siblings("li").fadeOut()
     })
 
